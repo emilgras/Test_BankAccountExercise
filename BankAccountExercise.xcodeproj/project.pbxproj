@@ -13,6 +13,7 @@
 		F21A0EDE1E548FB8005CC33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21A0EDD1E548FB8005CC33B /* Assets.xcassets */; };
 		F21A0EE11E548FB8005CC33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21A0EDF1E548FB8005CC33B /* LaunchScreen.storyboard */; };
 		F21A0EEC1E548FB8005CC33B /* BankAccountExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21A0EEB1E548FB8005CC33B /* BankAccountExerciseTests.swift */; };
+		F21A0EF71E549057005CC33B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21A0EF61E549057005CC33B /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F21A0EE71E548FB8005CC33B /* BankAccountExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankAccountExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21A0EEB1E548FB8005CC33B /* BankAccountExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountExerciseTests.swift; sourceTree = "<group>"; };
 		F21A0EED1E548FB8005CC33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21A0EF61E549057005CC33B /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F21A0ED61E548FB8005CC33B /* AppDelegate.swift */,
 				F21A0ED81E548FB8005CC33B /* ViewController.swift */,
+				F21A0EF61E549057005CC33B /* Account.swift */,
 				F21A0EDA1E548FB8005CC33B /* Main.storyboard */,
 				F21A0EDD1E548FB8005CC33B /* Assets.xcassets */,
 				F21A0EDF1E548FB8005CC33B /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				F21A0ED91E548FB8005CC33B /* ViewController.swift in Sources */,
 				F21A0ED71E548FB8005CC33B /* AppDelegate.swift in Sources */,
+				F21A0EF71E549057005CC33B /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
